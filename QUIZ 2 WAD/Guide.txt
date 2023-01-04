@@ -1,0 +1,11 @@
+1. Buat database di phpmyadmin dengan nama cucci
+(bisa diganti nama database cuma di bagian connect.php harus diganti sesuai nama database yang dibuat)
+2. klik database yang udah dibuat
+3. import database yang ada di folder ke database yang udah dibuat
+4. coba cek table users, itu udah di buatin default buat akun admin, kalo user biasa paling nanti daftar 
+5. login bisa buat user sama admin dibedain nya pake role di database (bisa di cek di table users)
+6. kalo mau buat akun admin caranya manual, regis dulu user biasa terus nanti di database rolenya diganti jadi admin
+7. pada bagian home yang our service itu semua data dari database (jadi kalo mau nambah service tinggal di tambahin pake akun admin)
+8. cookie udah ada, cara ceknya coba login terus remember me nya di centang. abis itu coba browser (google chrome) di close, abis itu buka lagi nanti bakal otomatis ke logout nah coba cek login lagi
+kalo email sama passwordnya udah otomatis keisi berarti cookie nya dah jalan
+9. sisanya eksplore sendiri ya :)
